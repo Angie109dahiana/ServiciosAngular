@@ -1,0 +1,27 @@
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 240px);
+    gap: 180px;
+    place-content: center;
+    margin-top: 1em;
+    row-gap: 60px;
+  }
+
+  @media (max-width: 640px) {
+    .cards-container {
+      grid-template-columns: repeat(auto-fill, 140px);
+    }
+    .product-card {
+      width: 140px;
+    }
+    .product-card img {
+      width: 140px;
+      height: 140px;
+    }
+  }
+
+  h1 {
+    text-align: center;
+    margin-top: 1em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
